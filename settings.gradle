@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                // According to Doc guide
+                // this should always be `mapbox`
+                username = "mapbox"
+                // Secret token stored in gradle.properties
+                password = MAPBOX_DOWNLOADS_TOKEN
+            }
+        }
+    }
+}
+rootProject.name = "MapboxAleph"
+include ':app'

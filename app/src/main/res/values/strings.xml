@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MapboxAleph</string>
+
+    <!--  User permissions  -->
+    <string name="map_userpermission_title">Utilizar ubicación</string>
+    <string name="map_userpermission_message">Como parte del ejercicio es posible utilizar la ubicación del dispositivo o la de Reynosa, Tamaulipas.</string>
+    <string name="map_userpermission_devicelocation">Del dispositivo</string>
+    <string name="map_userpermission_reynosalocation">De Reynosa</string>
+    <string name="map_userpermission_grantpermission">Para el correcto funcionamiento de la aplicación es necesario otorgar los permisos necesarios.</string>
+
+    <!--  Map Fragment  -->
+    <string name="locations_nolocations">No hay ubicaciones</string>
+    <string name="fragment_map_gotoannotations">Ver lista</string>
+    <!--  Annotations Fragment  -->
+    <string name="placeholder_lng">Longitud : %1$s</string>
+    <string name="placeholder_lat">Latitud : %1$s</string>
+
+    <!--  Dialog  -->
+    <string name="dialog_selectingpoint">Seleccionando punto</string>
+
+    <!--  Mapbox  -->
+    <string name="mapbox_public_token">pk.eyJ1IjoiZWxqb3NobzkyIiwiYSI6ImNsMHJjcm4xcjAyN28zaWswejNlenBjYXgifQ.kZbehZYY7L60Fhz2cWgYSg</string>
+</resources>
